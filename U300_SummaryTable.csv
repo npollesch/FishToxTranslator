@@ -1,0 +1,7 @@
+"","ScenarioName","StartingPopulation","FinalPopulation","StartingBiomass","FinalBiomass","StartingMeanSize","FinalMeanSize","MinDailyGrowthPotential","MaxDailyGrowthPotential","AnnualLambda","AnnualMinGrowthPotential","AnnualMaxGrowthPotential"
+"1","Unif.Baseline",100,98.318,124.792,258.588,39.8,61.52,0.95,6.904,1.622,0.066,1.693
+"2","Unif.C.GUTS-SurvivalEffect",100,53.186,124.792,139.831,39.8,61.512,0.605,6.95,0.86,0.035,0.898
+"3","Unif.C.CIGM-GrowthEffect",100,86.856,124.792,224.463,39.8,61.116,0.95,6.913,1.072,0.043,1.135
+"4","Unif.C.GUTS+CIGM",100,46.963,124.792,121.322,39.8,61.109,0.605,6.954,0.566,0.023,0.599
+"5","Unif.NC.DD",100,67.505,124.792,160.275,39.8,59.138,0.95,6.913,1.28,0.032,1.392
+"6","Unif.NC.Winter",100,69.224,124.792,174.177,39.8,60.376,0.878,6.934,1.262,0.017,1.59

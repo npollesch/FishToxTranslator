@@ -1,0 +1,22 @@
+Package: FishToxTranslator
+Type: Package
+Title: The Fish Toxicity Translator
+Version: 0.1.16
+Author: Nathan Pollesch
+Maintainer: Nathan Pollesch <pollesch.nathan@epa.gov>
+Description: The Fish Toxicity Translator is used to estimate the population-level impacts of exposure to chemical and non-chemical stressors.  Starting with a baseline fish population, stressor scenarios are developed and their impacts are interpreted as a change from baseline population levels and dynamics.
+    The underlying model is a size-structured integral projection model.  The model has a daily time-step and is run for year-long simulations.  Each day has it's own 'transition kernel' that estimates the impact of that day's circumstances on the population. Results can be analyzed at the daily and yearly level.
+    This tool has been developed by the USEPA to interpret population impacts of exposure based on laboratory effects data paired with exposure data.  Model outputs include population levels (# of individuals), daily and yearly population growth potential, and insights into population size-structure.   
+Depends:
+  purrr,
+  stringr,
+  Matrix,
+  statmod,
+  truncnorm,
+  tibble,
+  plot.matrix,
+  parallel
+Encoding: UTF-8
+License: NA
+LazyData: true
+RoxygenNote: 7.1.1

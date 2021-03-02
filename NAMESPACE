@@ -1,0 +1,11 @@
+exportPattern("^[[:alpha:]]+")
+importFrom("grDevices", "grey", "rainbow")
+importFrom("graphics", "abline", "axis", "contour", "image", "layout",
+               "par")
+importFrom("stats", "pnorm", "stepfun", "var")
+importFrom("tibble","add_column")
+importFrom("grDevices", "adjustcolor", "colorRampPalette")
+importFrom("graphics", "arrows", "grid", "hist", "legend", "lines",
+             "mtext", "points", "polygon", "rect", "text")
+importFrom("stats", "rnorm", "runif", "setNames")
+import("truncnorm","Matrix","purrr","statmod","stringr","tibble","plot.matrix","parallel")
