@@ -4,8 +4,14 @@
 \alias{GenerateSpawningProbs}
 \title{Generate Spawning Probabilities}
 \usage{
-GenerateSpawningProbs(repro_start, repro_end, spawns_max_season, spawn_int,
-  nReps = 1e+05, matReturn = F)
+GenerateSpawningProbs(
+  repro_start,
+  repro_end,
+  spawns_max_season,
+  spawn_int,
+  nReps = 1e+05,
+  matReturn = F
+)
 }
 \arguments{
 \item{repro_start}{Onset of reproduction season in ordinal day (Jan 1 = 1 in non-leap year) [integer]}

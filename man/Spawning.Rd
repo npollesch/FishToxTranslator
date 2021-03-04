@@ -20,7 +20,9 @@ Probability of reproducing [binary]
 Probability of reproducing, once an individual reaches 'z_repro' they reproduce with probability 'p_spawn'
 }
 \seealso{
-Other Kernel Functions: \code{\link{Fecundity}},
-  \code{\link{HatchlingGrowth}}, \code{\link{Survival}}
+Other Kernel Functions: 
+\code{\link{Fecundity}()},
+\code{\link{HatchlingGrowth}()},
+\code{\link{Survival}()}
 }
 \concept{Kernel Functions}

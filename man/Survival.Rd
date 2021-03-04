@@ -28,7 +28,9 @@ Exposure Survival:
 A survival decrement can be specified to alter the daily survival probability for all individuals in the population.
 }
 \seealso{
-Other Kernel Functions: \code{\link{Fecundity}},
-  \code{\link{HatchlingGrowth}}, \code{\link{Spawning}}
+Other Kernel Functions: 
+\code{\link{Fecundity}()},
+\code{\link{HatchlingGrowth}()},
+\code{\link{Spawning}()}
 }
 \concept{Kernel Functions}

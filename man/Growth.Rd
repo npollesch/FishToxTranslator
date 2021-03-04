@@ -4,8 +4,17 @@
 \alias{Growth}
 \title{Kernel Functions - Growth}
 \usage{
-Growth(z1, z, bt, pars, date, minGinc = 0.05, minV = 1e-05, CDF = T,
-  muSDOut = F)
+Growth(
+  z1,
+  z,
+  bt,
+  pars,
+  date,
+  minGinc = 0.05,
+  minV = 1e-05,
+  CDF = T,
+  muSDOut = F
+)
 }
 \arguments{
 \item{z1}{Size at the end of the timestep [float]}

@@ -32,6 +32,7 @@ This function is provided as a standard to pass to \code{\link{SimulateModel}} f
 The 'SemelparousGrowthSurvivalKernel' is distinguished from the 'IteroparousSurvivalKernel' by in the inclusion of a (1-Spawning(z)) factor in the product for 'SemelparousGrowthSurvivalKernel' to account for post-spawning mortality.
 }
 \seealso{
-Other Kernel Components: \code{\link{ReproductionKernel}}
+Other Kernel Components: 
+\code{\link{ReproductionKernel}()}
 }
 \concept{Kernel Components}

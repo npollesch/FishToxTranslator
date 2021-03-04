@@ -4,7 +4,9 @@
 \name{parameters_master}
 \alias{parameters_master}
 \title{Data: Fish Toxicity Translator Master Parameter List}
-\format{data.frame}
+\format{
+data.frame
+}
 \usage{
 data(life_history_template_master)
 }

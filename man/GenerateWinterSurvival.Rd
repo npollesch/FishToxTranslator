@@ -4,8 +4,11 @@
 \alias{GenerateWinterSurvival}
 \title{Generate Daily Winter Survival Probabilities}
 \usage{
-GenerateWinterSurvival(winterStartDate, winterEndDate,
-  percentSurviving = 0.001)
+GenerateWinterSurvival(
+  winterStartDate,
+  winterEndDate,
+  percentSurviving = 0.001
+)
 }
 \arguments{
 \item{winterStartDate}{Lethal concentration for 'lc_percent' [float]}

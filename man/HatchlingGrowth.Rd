@@ -24,7 +24,9 @@ Uses vonBertalanffy to determine mean growth and a theoretical derivation
 of the associated standard deviation.
 }
 \seealso{
-Other Kernel Functions: \code{\link{Fecundity}},
-  \code{\link{Spawning}}, \code{\link{Survival}}
+Other Kernel Functions: 
+\code{\link{Fecundity}()},
+\code{\link{Spawning}()},
+\code{\link{Survival}()}
 }
 \concept{Kernel Functions}

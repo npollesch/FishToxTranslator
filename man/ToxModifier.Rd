@@ -4,8 +4,16 @@
 \alias{ToxModifier}
 \title{Size-dependent Toxicity Modifier}
 \usage{
-ToxModifier(z, toxModType, toxMultU, toxMultL, upperBound, lowerBound,
-  zPartition, toxModVec)
+ToxModifier(
+  z,
+  toxModType,
+  toxMultU,
+  toxMultL,
+  upperBound,
+  lowerBound,
+  zPartition,
+  toxModVec
+)
 }
 \arguments{
 \item{z}{Size at the beginning of the timestep [float or vector]}

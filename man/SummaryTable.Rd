@@ -28,19 +28,35 @@ PlotMeanSize(modelOutputList)
 
 PlotGrowthPotential(modelOutputList)
 
-KernelImage(A, x = NULL, y = NULL,
-  col = rev(colorRampPalette(c("red", "yellow", "green", "blue",
-  "white"))(100)), just.legend = FALSE, bw = FALSE, my.x.axis = NA,
-  matLabels = NULL, do.contour = TRUE, do.legend = TRUE, ...)
+KernelImage(
+  A,
+  x = NULL,
+  y = NULL,
+  col = rev(colorRampPalette(c("red", "yellow", "green", "blue", "white"))(100)),
+  just.legend = FALSE,
+  bw = FALSE,
+  my.x.axis = NA,
+  matLabels = NULL,
+  do.contour = TRUE,
+  do.legend = TRUE,
+  ...
+)
 
 PlotTransitionKernel(modelOutputList)
 
-FormatExportScenario(scenarioToExport, parsList = parameters,
-  descList = scenarioDescriptions)
+FormatExportScenario(
+  scenarioToExport,
+  parsList = parameters,
+  descList = scenarioDescriptions
+)
 
-FormatExportResults(runID, scenarioID,
-  scenDescList = scenarioDescriptions, resultsList = modelRuns,
-  runInfoList = modelRunInfo)
+FormatExportResults(
+  runID,
+  scenarioID,
+  scenDescList = scenarioDescriptions,
+  resultsList = modelRuns,
+  runInfoList = modelRunInfo
+)
 }
 \arguments{
 \item{modelOutputList}{A list object with the output from \code{\link{SimulateModel}}.  This can be a single \code{SimulateModel} output or a list of \code{SimulateModel} output lists.}

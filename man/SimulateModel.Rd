@@ -4,10 +4,17 @@
 \alias{SimulateModel}
 \title{Simulate Model}
 \usage{
-SimulateModel(par, n_0 = 100, z_t_0 = NA,
+SimulateModel(
+  par,
+  n_0 = 100,
+  z_t_0 = NA,
   growthSurvivalComponent = GrowthSurvivalKernel,
-  reproductionComponent = ReproductionKernel, dates = 1:365,
-  num_size_classes = 100, solver_order = 3, allOut = F)
+  reproductionComponent = ReproductionKernel,
+  dates = 1:365,
+  num_size_classes = 100,
+  solver_order = 3,
+  allOut = F
+)
 }
 \arguments{
 \item{par}{The data.frame that contains date-indexed kernel function parameters for the scenario being modeled [data.frame]}

@@ -4,7 +4,9 @@
 \name{species_library}
 \alias{species_library}
 \title{Data: Species Library}
-\format{data.frame}
+\format{
+data.frame
+}
 \usage{
 data(parameters_p.promelas)
 }

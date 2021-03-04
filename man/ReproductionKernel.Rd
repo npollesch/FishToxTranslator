@@ -30,6 +30,7 @@ Here we define 'R' as 'ReproductionKernel' to b explicit, where it is the produc
 This function is provided as a standard to pass to \code{\link{SimulateModel}} for the 'reproductionComponent' argument
 }
 \seealso{
-Other Kernel Components: \code{\link{GrowthSurvivalKernel}}
+Other Kernel Components: 
+\code{\link{GrowthSurvivalKernel}()}
 }
 \concept{Kernel Components}

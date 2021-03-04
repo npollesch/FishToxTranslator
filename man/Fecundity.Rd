@@ -20,7 +20,9 @@ Number of hatchlings per spawn[binary]
 If an individual reaches 'z_repro' they reproduce with probability provided by the \code{\link{Spawning}} function, and have 'hatch_per_spawn' hatchlings
 }
 \seealso{
-Other Kernel Functions: \code{\link{HatchlingGrowth}},
-  \code{\link{Spawning}}, \code{\link{Survival}}
+Other Kernel Functions: 
+\code{\link{HatchlingGrowth}()},
+\code{\link{Spawning}()},
+\code{\link{Survival}()}
 }
 \concept{Kernel Functions}

@@ -4,7 +4,9 @@
 \name{life_history_parameters_p.promelas}
 \alias{life_history_parameters_p.promelas}
 \title{Data: Fathead Minnow (Pimephales Promelas) Life History Parameters}
-\format{data.frame}
+\format{
+data.frame
+}
 \usage{
 data(life_history_parameters_p.promelas)
 }
